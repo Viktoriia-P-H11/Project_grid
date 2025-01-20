@@ -10,6 +10,24 @@ body {
     display: grid;
     place-items: center;
 }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+         url('../fonts/Roboto-Regular.woff') format('woff'),
+         url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Bold.woff2') format('woff2'),
+         url('./fonts/Roboto-Bold.woff') format('woff'),
+         url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
 .container {
     background-color: #fff;
     border-radius: 28px;
